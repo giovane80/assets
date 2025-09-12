@@ -1,0 +1,22 @@
+{
+  "id": "planeta_sythoria",
+  "musicTrackKey": "mission1Music",
+  "parallaxLayers": [
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/fases/fase%201/planeta%20Sythoria/Sythoria%20surface.jpeg?raw=true",
+      "speed": 0.5,
+      "depth": 0,
+      "behavior": 0,
+      "scale": 1,
+      "isCentered": true
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/fases/fase%201/planeta%20Sythoria/NUVENS%20DE%20POEIRA.png?raw=true",
+      "speed": 0.95,
+      "depth": 3,
+      "behavior": 0,
+      "scale": 1,
+      "isCentered": true
+    }
+  ]
+}
