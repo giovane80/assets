@@ -1,0 +1,112 @@
+{
+  "missionData": {
+    "id": 3,
+    "title": "Missão 3: Entrega Clandestina",
+    "description": "Kael Dravik precisa que três contêineres de suprimentos cheguem discretamente à Cidade das Dunas, em Sythoria. A rota atravessa o Cinturão dos Lamentos, região vigiada pela Frota Sombra; furtividade é essencial.",
+    "objectives": [
+      "Sair do Asteroide Corsário.",
+      "• Atravessar o Cinturão dos Lamentos sem ser escaneado.",
+      "• Entregar a carga em Skarn."
+    ],
+    "cargoTons": 30,
+    "distanceAU": 150,
+    "destination": "Planeta Skarn",
+    "combatLocationName": "Espaço",
+    "locationId": "open_space",
+    "totalEnemies": 18,
+    "enemySpawnPattern": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "preMissionDialogue": {
+    "isEnabled": true,
+    "backgroundImageUrl": "https://github.com/giovane80/assets/blob/main/cenas/FUNDOS%20DE%20CENARIO/Posto%20Avan%C3%A7ado%20no%20Setor%20Orion.png?raw=true",
+    "musicTrack": "mission1IntroMusic",
+    "dialogues": [
+      {
+        "speaker": "Kael Dravik",
+        "text": "Estas caixas contêm antídotos de febre cristalina. Se a Frota Sombra ou aqueles piratas de beira-cinturão puserem as mãos nisso, metade de Sythoria continua doente.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Kael%20Dravik.png?raw=true"
+      },
+      {
+        "speaker": "Zara Nyx",
+        "text": "Piratas? Pensei que o maior risco fosse a Sombra",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Zara%20Nyx.png?raw=true"
+      },
+      {
+        "speaker": "Kael Dravik",
+        "text": "Ultimamente eles andam disputando espaço. São escória oportunista; atacam qualquer transportador pequeno que atravesse o Cinturão dos Lamentos.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Kael%20Dravik.png?raw=true"
+      },
+      {
+        "speaker": "Sigma-9",
+        "text": "Registrei sete ataques só esta semana. Estatística nada inspiradora.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/SIGMA%209.png?raw=true"
+      },
+      {
+        "speaker": "Zara Nyx",
+        "text": "Tudo bem. Velhos canhões, nave barulhenta, piloto teimosa. O combo perfeito pra chamar atenção… ou despistar.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Zara%20Nyx.png?raw=true"
+      },
+      {
+        "speaker": "Kael Dravik",
+        "text": "Fiquem de olhos abertos. Se pintarem nos scanners, não hesitem: bala perdida primeiro, perguntas depois.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Kael%20Dravik.png?raw=true"
+      },
+      {
+        "speaker": "Sigma-9",
+        "text": "Preparando protocolo de assinatura fantasma. Recomendação tática: não deixar que se aproximem a menos de 2 quilômetros.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/SIGMA%209.png?raw=true"
+      },
+      {
+        "speaker": "Zara Nyx",
+        "text": "Entendido. Carreguem a Coruja Galáctica. Partimos antes que a lixeira vire alvo também.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Zara%20Nyx.png?raw=true"
+      },
+      {
+        "speaker": "Kael Dravik",
+        "text": "Boa sorte, pequena Starwind. Voltem inteiros",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Kael%20Dravik.png?raw=true"
+      },
+      {
+        "speaker": "",
+        "text": "",
+        "imageUrl": ""
+      }
+    ]
+  },
+  "postMissionDialogue": {
+    "isEnabled": true,
+    "backgroundImageUrl": "https://github.com/giovane80/assets/blob/main/cenas/FUNDOS%20DE%20CENARIO/cidade%20das%20dunas.png?raw=true",
+    "musicTrack": "menuMusic",
+    "dialogues": [
+      {
+        "speaker": "Kael Dravik",
+        "text": "Carga recebida! Esses frascos vão salvar vidas.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Kael%20Dravik.png?raw=true"
+      },
+      {
+        "speaker": "",
+        "text": "",
+        "imageUrl": ""
+      }
+    ]
+  }
+}
