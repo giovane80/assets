@@ -6,11 +6,11 @@
     "objectives": [
       "Sair do Asteroide Corsário.",
       "• Atravessar o Cinturão dos Lamentos sem ser escaneado.",
-      "• Entregar a carga em Skarn."
+      "• Entregar a carga  no posto médico de Sythoria"
     ],
     "cargoTons": 30,
     "distanceAU": 150,
-    "destination": "Planeta Skarn",
+    "destination": "Planeta Sythoria",
     "combatLocationName": "Planeta Sythoria",
     "locationId": "planeta_sythoria",
     "totalEnemies": 18,
