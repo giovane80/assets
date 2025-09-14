@@ -11,8 +11,8 @@
     "cargoTons": 30,
     "distanceAU": 150,
     "destination": "Planeta Skarn",
-    "combatLocationName": "Espaço",
-    "locationId": "open_space",
+    "combatLocationName": "Planeta Sythoria",
+    "locationId": "planeta_sythoria",
     "totalEnemies": 18,
     "enemySpawnPattern": [
       0,
