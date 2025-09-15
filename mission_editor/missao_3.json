@@ -37,18 +37,20 @@
   },
   "preMissionDialogue": {
     "isEnabled": true,
-    "backgroundImageUrl": "https://github.com/giovane80/assets/blob/main/cenas/FUNDOS%20DE%20CENARIO/Posto%20Avan%C3%A7ado%20no%20Setor%20Orion.png?raw=true",
+    "backgroundImageUrl": "https://github.com/giovane80/assets/blob/main/cenas/zara_e_kael_no_escritorio.png?raw=true",
     "musicTrack": "mission1IntroMusic",
     "dialogues": [
       {
         "speaker": "Kael Dravik",
         "text": "Estas caixas contêm antídotos de febre cristalina. Se a Frota Sombra ou aqueles piratas de beira-cinturão puserem as mãos nisso, metade de Sythoria continua doente.",
-        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Kael%20Dravik.png?raw=true"
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Kael%20Dravik.png?raw=true",
+        "backgroundImageUrl": "https://github.com/giovane80/assets/blob/main/cenas/Kael%20Dravik%20no%20escritorio.png?raw=true"
       },
       {
         "speaker": "Zara Nyx",
         "text": "Piratas? Pensei que o maior risco fosse a Sombra",
-        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Zara%20Nyx.png?raw=true"
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Zara%20Nyx.png?raw=true",
+        "backgroundImageUrl": "https://github.com/giovane80/assets/blob/main/cenas/zara_e_kael_no_escritorio.png?raw=true"
       },
       {
         "speaker": "Kael Dravik",
@@ -98,14 +100,70 @@
     "musicTrack": "menuMusic",
     "dialogues": [
       {
-        "speaker": "Kael Dravik",
+        "speaker": "Supervisor da doca",
         "text": "Carga recebida! Esses frascos vão salvar vidas.",
-        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Kael%20Dravik.png?raw=true"
+        "imageUrl": "https://github.com/giovane80/assets/blob/main/PERSONAGENS/Supervisor_das_Docas_Cidade_das_Dunas.png?raw=true"
       },
       {
         "speaker": "",
-        "text": "",
-        "imageUrl": ""
+        "text": "Piratas tentaram tomar tudo, mas ficaram pelo caminho.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Zara%20Nyx.png?raw=true"
+      },
+      {
+        "speaker": "",
+        "text": "Análise dos destroços: as naves piratas usavam peças remendadas de cargueiros civis. Interessante, mas irrelevante… por enquanto.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/SIGMA%209.png?raw=true"
+      },
+      {
+        "speaker": "",
+        "text": "Bom trabalho, equipe. Créditos transferidos. A Sombra não detectou nada e os saqueadores ficaram sem prêmio..",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Kael%20Dravik.png?raw=true",
+        "backgroundImageUrl": "https://github.com/giovane80/assets/blob/main/cenas/Kael%20Dravik%20no%20escritorio.png?raw=true"
+      },
+      {
+        "speaker": "",
+        "text": "Por falar neles, só atacaram quando acharam que estávamos carregados de remédios. Por que focar em suprimentos e não em créditos?",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Zara%20Nyx.png?raw=true"
+      },
+      {
+        "speaker": "",
+        "text": "Ganância cega. Bandido é bandido, Zara. Não perca tempo tentando entender.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Kael%20Dravik.png?raw=true",
+        "backgroundImageUrl": "https://github.com/giovane80/assets/blob/main/cenas/Kael%20Dravik%20no%20escritorio.png?raw=true"
+      },
+      {
+        "speaker": "",
+        "text": "Registro marcado: “piratas do Cinturão – hostis”.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/SIGMA%209.png?raw=true"
+      },
+      {
+        "speaker": "",
+        "text": "Por hoje, sim. Mas algo nesse ataque não bate…",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Zara%20Nyx.png?raw=true"
+      },
+      {
+        "speaker": "",
+        "text": "Guarde a filosofia para depois. Descansem; novas rotas surgirão em breve.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Kael%20Dravik.png?raw=true",
+        "backgroundImageUrl": "https://github.com/giovane80/assets/blob/main/cenas/Kael%20Dravik%20no%20escritorio.png?raw=true"
+      },
+      {
+        "speaker": "",
+        "text": "Zara, um dos meus contatos na Aliança me enviou um alerta. A Frota Sombra está intensificando patrulhas perto de Koralith Prime. Parece que estão atrás de algo grande por lá.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Kael%20Dravik.png?raw=true",
+        "backgroundImageUrl": "https://github.com/giovane80/assets/blob/main/cenas/zara_sigma_e_kael_no_escritorio.png?raw=true"
+      },
+      {
+        "speaker": "",
+        "text": "Koralith Prime? Aquele planeta sombrio que serve de base para a Frota Sombra? Isso não é bom.\nZara Então, além dos piratas, agora temos a Frota Sombra no nosso encalço. O que faremos?",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/SIGMA%209.png?raw=true",
+        "backgroundImageUrl": "https://github.com/giovane80/assets/blob/main/cenas/zara_sigma_e_kael_no_escritorio.png?raw=true"
+      },
+      {
+        "speaker": "",
+        "text": "Temos algumas opções. Posso conseguir uma missão de reconhecimento para a Aliança, se quiser investigar Koralith Prime. Ou, se preferir, há  trabalho por aqui , há sempre alguém em algum lugar perigoso que precise de mais suprimentos. A escolha é sua, Starwind. Mas o tempo está correndo.",
+        "imageUrl": "https://raw.githubusercontent.com/giovane80/assets/main/PERSONAGENS/Kael%20Dravik.png?raw=true",
+        "backgroundImageUrl": "https://github.com/giovane80/assets/blob/main/cenas/zara_sigma_e_kael_no_escritorio.png?raw=true"
       }
     ]
   }
