@@ -10,7 +10,7 @@
     ],
     "cargoTons": 30,
     "distanceAU": 150,
-    "destination": "Planeta Sythoria",
+    "destination": "Cidade das Dunas, em Sythoria",
     "combatLocationName": "Planeta Sythoria",
     "locationId": "planeta_sythoria",
     "totalEnemies": 18,
@@ -33,7 +33,9 @@
       0,
       0,
       0
-    ]
+    ],
+    "startNodeId": "asteroide-corsário",
+    "destinationNodeId": "planeta-sythoria"
   },
   "preMissionDialogue": {
     "isEnabled": true,
