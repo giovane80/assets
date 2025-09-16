@@ -1,19 +1,10 @@
 {
   "missionData": {
-    "id": 3,
-    "title": "Missão 3: Entrega Clandestina",
-    "description": "Kael Dravik precisa que três contêineres de suprimentos cheguem discretamente à Cidade das Dunas, em Sythoria. A rota atravessa o Cinturão dos Lamentos, região vigiada pela Frota Sombra; furtividade é essencial.",
     "objectives": [
       "Sair do Asteroide Corsário.",
       "• Atravessar o Cinturão dos Lamentos sem ser escaneado.",
       "• Entregar a carga  no posto médico de Sythoria"
     ],
-    "cargoTons": 30,
-    "distanceAU": 150,
-    "destination": "Cidade das Dunas, em Sythoria",
-    "combatLocationName": "Planeta Sythoria",
-    "locationId": "planeta_sythoria",
-    "totalEnemies": 18,
     "enemySpawnPattern": [
       0,
       0,
@@ -34,8 +25,21 @@
       0,
       0
     ],
+    "id": 3,
+    "title": "Missão 3: Entrega Clandestina",
+    "description": "Kael Dravik precisa que três contêineres de suprimentos cheguem discretamente à Cidade das Dunas, em Sythoria. A rota atravessa o Cinturão dos Lamentos, região vigiada pela Frota Sombra; furtividade é essencial.",
+    "cargoTons": 30,
+    "distanceAU": 150,
+    "destination": "Cidade das Dunas, em Sythoria",
+    "combatLocationName": "Planeta Sythoria",
+    "locationId": "planeta_sythoria",
+    "totalEnemies": 18,
     "startNodeId": "asteroide-corsário",
-    "destinationNodeId": "planeta-sythoria"
+    "destinationNodeId": "planeta-sythoria",
+    "prerequisites": [
+      1,
+      2
+    ]
   },
   "preMissionDialogue": {
     "isEnabled": true,
