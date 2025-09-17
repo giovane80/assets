@@ -53,6 +53,9 @@
   "movementPattern": "SINE_WAVE",
   "shootingPattern": "SINGLE_SHOT",
   "shootingDirection": "TOWARDS_PLAYER",
-  "aiParams": {},
-  "projectileType": "STANDARD"
+  "aiParams": {
+    "bombRadius": 100,
+    "bombDamage": 30
+  },
+  "projectileType": "BOMB"
 }
