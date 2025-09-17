@@ -1,0 +1,64 @@
+{
+  "id": "nautolan_battlecruiser",
+  "name": "Nautolan  Battlecruiser",
+  "assets": {
+    "base": {
+      "url": "https://github.com/giovane80/assets/blob/main/Nautolan/Designs%20-%20Base/PNGs/Nautolan%20Ship%20-%20Battlecruiser%20-%20Base.png?raw=true",
+      "frames": 1,
+      "orientation": "HORIZONTAL"
+    },
+    "engine": {
+      "url": "https://github.com/giovane80/assets/blob/main/Nautolan/Engine%20Effects/PNGs/Nautolan%20Ship%20-%20Battlecruiser%20-%20Engine%20Effect.png?raw=true",
+      "frames": 8,
+      "orientation": "HORIZONTAL"
+    },
+    "destruction": {
+      "url": "https://github.com/giovane80/assets/blob/main/Nautolan/Destruction/PNGs/Nautolan%20Ship%20-%20Battlecruiser.png?raw=true",
+      "frames": 13,
+      "orientation": "HORIZONTAL"
+    },
+    "projectile": {
+      "url": "https://github.com/giovane80/assets/blob/main/Nautolan/Weapon%20Effects%20-%20Projectiles/PNGs/Nautolan%20-%20Bullet.png?raw=true",
+      "frames": 8,
+      "orientation": "HORIZONTAL"
+    }
+  },
+  "stats": {
+    "health": 2,
+    "creditValue": 10,
+    "speed": 3
+  },
+  "dimensions": {
+    "width": 120,
+    "height": 120
+  },
+  "hitbox": {
+    "shape": "RECTANGLE",
+    "offsetX": 0,
+    "offsetY": -5,
+    "width": 52,
+    "height": 67,
+    "angle": 0
+  },
+  "engineOffset": {
+    "x": 0,
+    "y": 5
+  },
+  "movementPattern": "DIVE_ATTACK",
+  "shootingPattern": "BURST_FIRE",
+  "shootingDirection": "FORWARD",
+  "aiParams": {
+    "burstDelay": 20
+  },
+  "projectileType": "STANDARD",
+  "firePoints": [
+    {
+      "x": -25,
+      "y": -9
+    },
+    {
+      "x": 25,
+      "y": -9
+    }
+  ]
+}
