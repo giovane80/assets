@@ -1,0 +1,64 @@
+{
+  "id": "nautolan_frigate",
+  "name": "Fragata Nautolan",
+  "assets": {
+    "base": {
+      "url": "https://raw.githubusercontent.com/giovane80/assets/main/Nautolan/Designs%20-%20Base/PNGs/Nautolan%20Ship%20-%20Frigate%20-%20Base.png",
+      "frames": 1,
+      "orientation": "HORIZONTAL"
+    },
+    "engine": {
+      "url": "https://raw.githubusercontent.com/giovane80/assets/main/Nautolan/Engine%20Effects/PNGs/Nautolan%20Ship%20-%20Frigate%20-%20Engine%20Effect.png",
+      "frames": 8,
+      "orientation": "HORIZONTAL"
+    },
+    "destruction": {
+      "url": "https://raw.githubusercontent.com/giovane80/assets/main/Nautolan/Destruction/PNGs/Nautolan%20Ship%20-%20Frigate.png",
+      "frames": 9,
+      "orientation": "HORIZONTAL"
+    },
+    "projectile": {
+      "url": "https://raw.githubusercontent.com/giovane80/assets/main/Nautolan/Weapon%20Effects%20-%20Projectiles/PNGs/Nautolan%20-%20Bullet.png?v=2",
+      "frames": 8,
+      "orientation": "HORIZONTAL"
+    }
+  },
+  "stats": {
+    "health": 3,
+    "creditValue": 25,
+    "speed": 2
+  },
+  "dimensions": {
+    "width": 100,
+    "height": 100
+  },
+  "hitbox": {
+    "shape": "RECTANGLE",
+    "offsetX": 0,
+    "offsetY": 0,
+    "width": 60,
+    "height": 60,
+    "angle": 0
+  },
+  "engineOffset": {
+    "x": 0,
+    "y": 6
+  },
+  "firePoints": [
+    {
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "movementPattern": "DIVE_ATTACK",
+  "shootingPattern": "BURST_FIRE",
+  "shootingDirection": "FORWARD",
+  "aiParams": {
+    "entryY": 150,
+    "pauseDuration": 120,
+    "diveDistance": 200,
+    "burstCount": 3,
+    "burstDelay": 10
+  },
+  "projectileType": "STANDARD"
+}
