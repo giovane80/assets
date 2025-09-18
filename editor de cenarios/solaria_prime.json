@@ -5,8 +5,8 @@
   "parallaxLayers": [
     {
       "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/SOLARIA%20PRIME/solaria_prime_layer9_estrelas.png?raw=true",
-      "speed": 0,
-      "depth": -10,
+      "speed": 0.05,
+      "depth": -9,
       "behavior": 1,
       "scale": 0,
       "isCentered": false,
@@ -30,7 +30,7 @@
       "scale": 1,
       "isCentered": false,
       "initialY": 454,
-      "initialX": 250
+      "initialX": 200
     },
     {
       "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/SOLARIA%20PRIME/solaria_prime_layer5.png?raw=true",
@@ -74,8 +74,8 @@
     },
     {
       "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/SOLARIA%20PRIME/solaria_prime_layer1.png?raw=true",
-      "speed": 0.45,
-      "depth": -1,
+      "speed": 0.5,
+      "depth": 0,
       "behavior": 1,
       "scale": 1,
       "isCentered": false,
