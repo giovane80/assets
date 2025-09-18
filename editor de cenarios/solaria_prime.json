@@ -1,0 +1,87 @@
+{
+  "id": "solaria_prime",
+  "combatLocationName": "Solaria Prime",
+  "musicTrackKey": "mission1Music",
+  "parallaxLayers": [
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/SOLARIA%20PRIME/solaria_prime_layer9_estrelas.png?raw=true",
+      "speed": 0,
+      "depth": -10,
+      "behavior": 1,
+      "scale": 0,
+      "isCentered": false,
+      "initialY": -95,
+      "initialX": 710
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/SOLARIA%20PRIME/solaria_prime_layer8_planeta.png?raw=true",
+      "speed": 0.15,
+      "depth": -7,
+      "behavior": 1,
+      "scale": 1,
+      "isCentered": true,
+      "initialY": 0
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/SOLARIA%20PRIME/solaria_prime_layer6.png?raw=true",
+      "speed": 0.2,
+      "depth": -6,
+      "behavior": 1,
+      "scale": 1,
+      "isCentered": false,
+      "initialY": 454,
+      "initialX": 250
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/SOLARIA%20PRIME/solaria_prime_layer5.png?raw=true",
+      "speed": 0.25,
+      "depth": -5,
+      "behavior": 1,
+      "scale": 1,
+      "isCentered": false,
+      "initialY": 400,
+      "initialX": 600
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/SOLARIA%20PRIME/solaria_prime_layer4.png?raw=true",
+      "speed": 0.3,
+      "depth": -4,
+      "behavior": 1,
+      "scale": 1,
+      "isCentered": false,
+      "initialX": 450,
+      "initialY": 300
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/SOLARIA%20PRIME/solaria_prime_layer3.png?raw=true",
+      "speed": 0.35,
+      "depth": -3,
+      "behavior": 1,
+      "scale": 1,
+      "isCentered": false,
+      "initialY": 400,
+      "initialX": 700
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/SOLARIA%20PRIME/solaria_prime_layer2.png?raw=true",
+      "speed": 0.4,
+      "depth": -2,
+      "behavior": 1,
+      "scale": 1,
+      "isCentered": false,
+      "initialX": 500,
+      "initialY": 500
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/SOLARIA%20PRIME/solaria_prime_layer1.png?raw=true",
+      "speed": 0.45,
+      "depth": -1,
+      "behavior": 1,
+      "scale": 1,
+      "isCentered": false,
+      "initialY": 200
+    }
+  ],
+  "hasStarfield": true,
+  "starfieldSpeed": 0.1
+}
