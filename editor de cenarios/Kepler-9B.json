@@ -5,14 +5,14 @@
   "parallaxLayers": [
     {
       "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/Kepler-9B/Kepler-9B%20orbita.png?raw=true",
-      "speed": 2,
-      "depth": 10,
+      "speed": 1.25,
+      "depth": 5,
       "behavior": 1,
       "scale": 1,
       "isCentered": true,
-      "initialY": -1100
+      "initialY": -2511
     }
   ],
-  "hasStarfield": false,
+  "hasStarfield": true,
   "starfieldSpeed": 1
 }
