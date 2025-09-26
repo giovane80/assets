@@ -1,0 +1,57 @@
+{
+  "id": "Nairan_Fighter",
+  "name": "Nairan  Fighter",
+  "assets": {
+    "base": {
+      "url": "https://github.com/giovane80/assets/blob/main/Nairan/Designs%20-%20Base/PNGs/Nairan%20-%20Fighter%20-%20Base.png?raw=true",
+      "frames": 1,
+      "orientation": "HORIZONTAL"
+    },
+    "engine": {
+      "url": "https://github.com/giovane80/assets/blob/main/Nairan/Engine%20Effects/PNGs/Nairan%20-%20Fighter%20-%20Engine.png?raw=true",
+      "frames": 8,
+      "orientation": "HORIZONTAL"
+    },
+    "destruction": {
+      "url": "https://github.com/giovane80/assets/blob/main/Nairan/Destruction/PNGs/Nairan%20-%20Fighter%20-%20Destruction.png?raw=true",
+      "frames": 9,
+      "orientation": "HORIZONTAL"
+    },
+    "projectile": {
+      "url": "https://github.com/giovane80/assets/blob/main/Nairan/Weapon%20Effects%20-%20Projectiles/PNGs/Nairan%20-%20Bolt.png?raw=true",
+      "frames": 5,
+      "orientation": "HORIZONTAL"
+    }
+  },
+  "stats": {
+    "health": 1,
+    "speed": 1
+  },
+  "dimensions": {
+    "width": 100,
+    "height": 100
+  },
+  "hitbox": {
+    "shape": "RECTANGLE",
+    "offsetX": 0,
+    "offsetY": 0,
+    "width": 40,
+    "height": 40,
+    "angle": 45
+  },
+  "engineOffset": {
+    "x": 0,
+    "y": 8
+  },
+  "firePoints": [
+    {
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "movementPattern": "HOMING",
+  "shootingPattern": "SINGLE_SHOT",
+  "shootingDirection": "TOWARDS_PLAYER",
+  "aiParams": {},
+  "projectileType": "STANDARD"
+}
