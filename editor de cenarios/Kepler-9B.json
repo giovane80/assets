@@ -5,12 +5,92 @@
   "parallaxLayers": [
     {
       "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/Kepler-9B/Kepler-9B%20orbita.png?raw=true",
-      "speed": 1.25,
-      "depth": 5,
+      "speed": 0.2,
+      "depth": -6,
       "behavior": 1,
       "scale": 1,
       "isCentered": true,
-      "initialY": -2511
+      "initialY": -1625,
+      "finalY": 0
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/Kepler-9B/Kepler-9B-raio%201.gif?raw=true",
+      "speed": 0.25,
+      "depth": -5,
+      "behavior": 2,
+      "scale": 0.2,
+      "isCentered": false,
+      "rotationVariation": 180,
+      "frequency": 0.05
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/Kepler-9B/Kepler-9B-raio%202.gif?raw=true",
+      "speed": 0.25,
+      "depth": -5,
+      "behavior": 2,
+      "scale": 0.1,
+      "isCentered": false,
+      "frequency": 0.05,
+      "rotationVariation": 180
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/Kepler-9B/Kepler-9B_camada01.png?raw=true",
+      "speed": 0.3,
+      "depth": -4,
+      "behavior": 2,
+      "scale": 0.2,
+      "isCentered": false,
+      "rotationVariation": 180,
+      "frequency": 0.01
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/Kepler-9B/Kepler-9B_camada04.png?raw=true",
+      "speed": 0.95,
+      "depth": 3,
+      "behavior": 1,
+      "scale": 0.6,
+      "isCentered": false,
+      "initialY": -159,
+      "initialX": 700
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/Kepler-9B/Kepler-9B_camada05.png?raw=true",
+      "speed": 0.35,
+      "depth": -3,
+      "behavior": 1,
+      "scale": 0.2,
+      "isCentered": false,
+      "initialX": 88
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/Kepler-9B/Kepler-9B-raio%201.gif?raw=true",
+      "speed": 0.25,
+      "depth": -5,
+      "behavior": 1,
+      "scale": 0.3,
+      "isCentered": false,
+      "spacing": 1500,
+      "initialY": 64,
+      "initialX": 400
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/Kepler-9B/Kepler-9B_camada06.png?raw=true",
+      "speed": 0.35,
+      "depth": -3,
+      "behavior": 1,
+      "scale": 1,
+      "isCentered": false,
+      "initialX": 1000,
+      "initialY": -600
+    },
+    {
+      "assetUrl": "https://github.com/giovane80/assets/blob/main/editor%20de%20cenarios/Kepler-9B/Kepler-9B_camada03.png?raw=true",
+      "speed": 0.25,
+      "depth": -5,
+      "behavior": 1,
+      "scale": 0.3,
+      "isCentered": true,
+      "initialY": -1000
     }
   ],
   "hasStarfield": true,
