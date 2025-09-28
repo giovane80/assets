@@ -1,0 +1,60 @@
+{
+  "id": "asteroide_1",
+  "name": "Asteroide 1",
+  "assets": {
+    "base": {
+      "url": "https://github.com/giovane80/assets/blob/main/asteroides/asteroide_1.png?raw=true",
+      "frames": 1,
+      "orientation": "HORIZONTAL"
+    },
+    "engine": {
+      "url": "",
+      "frames": 1,
+      "orientation": "HORIZONTAL"
+    },
+    "destruction": {
+      "url": "https://github.com/giovane80/assets/blob/main/Explosions/explosao_asteroide_1.png?raw=true",
+      "frames": 9,
+      "orientation": "HORIZONTAL"
+    },
+    "projectile": {
+      "url": "",
+      "frames": 1,
+      "orientation": "HORIZONTAL"
+    }
+  },
+  "stats": {
+    "health": 2,
+    "speed": 2
+  },
+  "dimensions": {
+    "width": 100,
+    "height": 100
+  },
+  "hitbox": {
+    "shape": "CIRCLE",
+    "offsetX": 0,
+    "offsetY": 0,
+    "width": 42,
+    "height": 40,
+    "angle": 0
+  },
+  "engineOffset": {
+    "x": 0,
+    "y": 0
+  },
+  "firePoints": [
+    {
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "movementPattern": "ASTEROID",
+  "shootingPattern": "SINGLE_SHOT",
+  "shootingDirection": "TOWARDS_PLAYER",
+  "aiParams": {
+    "spin": -0.01,
+    "direction": 90
+  },
+  "projectileType": "STANDARD"
+}
